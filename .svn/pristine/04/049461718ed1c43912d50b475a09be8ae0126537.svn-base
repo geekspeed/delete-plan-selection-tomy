@@ -1,0 +1,20 @@
+<div ng-init="init()">
+    <div ng-show="loading || isLoading()" class="billing-loading" ng-include="'partials/loadingView.html'"></div>
+    <div class="settings-header">
+        <span ng-if="cameras.length" class="settings-done" ng-click="done()">{{'activity_save' | i18n}}</span>
+        {{'system_settings_label_camera_order' | i18n}}
+    </div>
+    <div class="settings-container-list">
+    <div ng-hide="loading" class="settings-panel">
+        <div sortable class="settings-list" ng-model="cameras" style="border-collapse: collapse">
+            <div class="settings-list-item camera-order-item" ng-repeat="camera in getCameras() track by camera.deviceId">
+                <span class="settings-remove" ng-click="deleteCamera(camera); $event.stopPropagation();"> </span>
+                <span style="padding-left: 10px">{{camera.deviceName}}</span>
+            </div>
+            <div ng-if="!cameras.length" class="settings-list-loading">
+                No Cameras
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

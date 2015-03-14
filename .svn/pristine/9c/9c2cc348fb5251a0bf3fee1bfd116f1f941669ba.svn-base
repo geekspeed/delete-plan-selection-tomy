@@ -1,0 +1,55 @@
+<header class="header">
+    <span class="header-logout arlo-cp" ng-controller="FooterCtrl" id="buttonLogout" ng-click="gotoLogout()">{{'personal_info_logout' | i18n}}</span>
+</header>
+
+<section class="wrapper calendar-wrapper" ng-init="init()">
+    <div class="calendar">
+        <div class="calendar-row">
+            <div ng-if="!nextMonth" class="calendar-prev" ng-class="{'calendar-prev-disable': firstMonthNav}" ng-click="prev()"></div>
+            <div ng-if="nextMonth" class="calendar-prev" ng-click="prev()"></div>
+            <div ng-if="!lastDayOfMonth" class="calendar-next" ng-class="{'calendar-next-disable': lastMonth || nextMonth}" ng-click="next()"></div>
+            <div ng-if="lastDayOfMonth" class="calendar-next" ng-click="next()"></div>
+            <div class="calendar-month">{{month | monthText}}</div>
+        </div>
+        <table cellspacing="0" cellpadding="0" style="width: 100%; min-height: 230px;margin-bottom: 10px;">
+            <tbody>
+
+            <tr class="calendar-wday">
+                <td>S</td>
+                <td>M</td>
+                <td>T</td>
+                <td>W</td>
+                <td>Th</td>
+                <td>F</td>
+                <td>S</td>
+            </tr>
+
+            <tr ng-if="!loading" ng-repeat="week in weeks">
+                <td ng-repeat="day in week" ng-class="getCellType(day, $parent.$index)">
+                    <div ng-click="gotoDay(day)" ng-class="getDayType(day)" id="day_{{day.dayOfMonth}}">
+                        {{day.dayOfMonth}}
+                    </div>
+                </td>
+            </tr>
+
+            <tr ng-if="loading || !weeks">
+                <td colspan="7" style="text-align: center;">
+                    {{'status_label_loading' | i18n}}
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+        <button type="button" class="calendar-first" id="buttonFirst" ng-click="first()" ng-disabled="firstMonth"><span></span>First</button>
+        <button type="button" class="calendar-today" id="buttonToday" ng-click="today()" ng-disabled="lastMonth">Today<span></span></button>
+
+        <div class="recycle-link" id="buttonRecycle" ng-disabled="recycleModeEnable" ng-click="goToRecycle()" recycle-mode-trigger>Recycle Bin</div>
+
+    </div>
+
+    <div ui-view class="calendar-vlist"></div>
+</section>
+
+
+<div ng-include="'partials/footerView.html'" ng-controller="FooterCtrl" ng-init="init('calendar')"></div>
+

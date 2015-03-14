@@ -1,0 +1,54 @@
+﻿<div ng-show="emailLoading || email" class="footer-modes">
+    <div ng-if="emailLoading" style="height: 44px; line-height: 44px;">{{"status_label_please_wait" | i18n}}</div>
+    <div ng-if="email" class="arlo-cp footer-mode register-link" ng-click="sendEmail()">{{"share_email_link" | i18n}}</div>
+    <div id="copy-button" ng-show="email" class="arlo-cp footer-mode register-link" data-clipboard-text="{{link}}">{{"share_copy_link" | i18n}}</div>
+</div>
+<section class="footer" ng-class="{'footer-select': isRecordingMode()}">
+    <div ng-if="!isRecordingMode()" style="margin: 0 auto; display: table;height: 100%;" data-footer-buttons>
+      <div ui-sref="cameras" class="footer-button{{mode == 'cameras'?'-active':''}}" id="footerButtonCameras">
+            <div class="footer-button-c camerasIcon">{{"navigation_label_cameras" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+        <div ng-click="gotoCalendarView()" class="footer-button{{mode == 'calendar'?'-active':''}}" id="footerButtonLibrary">
+            <div class="footer-button-c libraryIcon">{{"navigation_label_library" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+        <div ui-sref="modes" class="footer-button{{mode == 'modes'?'-active':''}}" ng-hide="!canChangeMode()" id="footerButtonModes">
+            <div class="footer-button-c modeIcon">{{"navigation_label_mode" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+
+        <div ui-sref="settings" class="footer-button{{mode == 'settings'?'-active':''}}" id="footerButtonSettings">
+            <div class="footer-button-c settingsIcon">{{"navigation_label_settings" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+    </div>
+
+    <div ng-if="isRecordingMode()" style="margin: 0 auto; display: table;height: 100%;" data-footer-buttons data-select-bar>
+        <div ng-click="!canSelect() || favorite()" class="footer-button" id="footerButtonFavorite" ng-disabled="!canSelect()">
+            <div class="footer-button-c fav-icon{{isFavorite()?'-a':''}}">{{"select_bar_label_favorite" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+        <div ng-click="!canSelect() || share()" class="footer-button" id="footerButtonShare" ng-disabled="!canSelect()">
+            <div class="footer-button-c share-icon">{{"select_bar_label_share" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+        <div ng-click="!canSelect() || download()" class="footer-button" id="footerButtonDownload" ng-disabled="!canSelect()">
+            <div class="footer-button-c download-icon">{{"select_bar_label_download" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+
+        <div ng-click="!canSelect() || delete()" class="footer-button" id="footerButtonDelete" ng-disabled="onlyFavoriteSelected() || !canSelect()">
+            <div class="footer-button-c delete-icon">{{"select_bar_label_delete" | i18n}}
+            </div>
+            <div class="footer-button-r"></div>
+        </div>
+    </div>
+</section>

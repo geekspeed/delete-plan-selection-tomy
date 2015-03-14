@@ -1,0 +1,61 @@
+var gulp = require('gulp'),
+    csso = require('gulp-csso'),
+    uglify = require('gulp-uglify'),
+    concat = require('gulp-concat'),
+    ngAnnotate = require('gulp-ng-annotate'),
+    minifyHtml = require("gulp-minify-html"),
+    ngHtml2Js = require('gulp-ng-html2js');
+
+gulp.task('build', function () {
+    gulp.src(['../css/bootstrap_min.css', '../css/inputs.css', '../css/main.css',
+        '../css/recording.css','../css/images.css','../css/responsive.css','../css/calendar.css'])
+        .pipe(concat('index.min.css'))
+        .pipe(csso())
+        .pipe(gulp.dest('../css/'));
+
+    gulp.src(['../lib/date.js', '../lib/angular/angular-1.2.17.js','../lib/angular/angular-resource.js',
+        '../lib/ui-bootstrap-tpls-0.11.0.js','../lib/angular-ui-router.js',
+        '../lib/underscore.min.js','../lib/sortable.js','../lib/localize.js','../lib/bindonce.min.js',
+        '../lib/screenfull.js', '../lib/zeroclipboard.min.js'])
+        .pipe(concat('libs.min.js'))
+        .pipe(ngAnnotate())
+        .pipe(uglify())
+        .pipe(gulp.dest('../lib'));
+
+    gulp.src(['../js/app.js','../js/services.js','../js/controllers.js','../js/filters.js','../js/directives.js'])
+        .pipe(concat('index.min.js'))
+        .pipe(ngAnnotate())
+        .pipe(uglify())
+        .pipe(gulp.dest('../js'));
+
+    gulp.src("../partials/*.html")
+        .pipe(minifyHtml({
+            empty: true,
+            spare: true,
+            quotes: true
+        }))
+        .pipe(ngHtml2Js({
+            moduleName: "arloPartials",
+            prefix: "partials/"
+        }))
+        .pipe(concat("partials.min.js"))
+        .pipe(uglify())
+        .pipe(gulp.dest("../js"));
+
+});
+
+gulp.task('partials', function () {
+    gulp.src("../partials/*.html")
+        .pipe(minifyHtml({
+            empty: true,
+            spare: true,
+            quotes: true
+        }))
+        .pipe(ngHtml2Js({
+            moduleName: "arloPartials",
+            prefix: "partials/"
+        }))
+        .pipe(concat("partials.min.js"))
+        .pipe(uglify())
+        .pipe(gulp.dest("../js"));
+});

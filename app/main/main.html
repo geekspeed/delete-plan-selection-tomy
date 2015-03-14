@@ -1,0 +1,213 @@
+<div class="container">
+
+    <div ng-include="'components/navbar/navbar.html'"></div>
+
+    <div class="jumbotron text-center">
+        <p class="lead">
+            <img src="assets/images/arlo/logo_0@2x.png" alt="I'm Yeoman">
+            <br> Pleasure serving Arlo Marketing.
+        </p>
+    </div>
+
+ 
+<!-- <button class="btn btn-primary" style="left-margin: 250px;" ng-click="pop()">Show toasts</button>
+<button class="btn btn-danger" style="margin: 10px 0 0 150px;" ng-click="clear()">Clear toasts</button>
+ -->
+
+
+    <div class="row">
+        <div class="col-md-3 col-md-offset-5">
+            <img id="spinner" ng-src="assets/images/arlo/spinner2.gif" style="width:60px; display:none">
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12">
+            <input placeholder="Search.... " type="text" class="form-control col-md-12 col-sm-12" ng-model="searchText">
+        </div>
+        <hr>
+
+
+
+        <div ui-view></div>
+
+
+        <div class="col-sm-12 col-md-12" ng-repeat="awesomeThing in awesomeThings | orderBy:'rank' | filter:searchText">
+
+            <!-- {{awesomeThing}} -->
+            <form class="thumbnail">
+                <div class="caption caption-push">
+                    <ul class="list-inline">
+                        <li class="monaco-font">
+                       {{awesomeThing.planName}}
+                        </li>
+                        <li>
+                            <h5>                                                            
+                                <a ng-href="#/{{awesomeThing.netgearSku}}"> <span class="glyphicon glyphicon-pencil" tooltip="Update this plan" > </span> </a>  
+                            </h5>
+                        </li>
+                    </ul>
+
+
+
+
+                    <div class="row">
+
+<!--                         <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">PlanId  </p>
+                                </div>
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline monaco-font">{{awesomeThing.planId}} </p>
+                                </div>
+
+                            </div>
+                        </div> -->
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-1">
+                                    <p class="p-inline">skuId  </p>  <span class="glyphicon glyphicon-info-sign" tooltip="The skuId of that plan" </span>
+                                </div>
+                                <div class="col-md-6 color-1">
+                                    <p class="p-inline monaco-font">{{awesomeThing.id}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">planType  </p>  <span class="glyphicon glyphicon-info-sign" tooltip="Type of plan, SERVICE, BASIC or STORAGE"> </span>
+                                </div>
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">{{awesomeThing.planType}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-2">
+                                    <p class="p-inline">group Number  </p> <span class="glyphicon glyphicon-info-sign" tooltip="Number used to group plans on clients"> </span>
+                                </div>
+                                <div class="col-md-6 color-2">
+                                    <p class="p-inline"> - </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline" tooltip="Plan name displayed on clients" >groupName</p> <span class="glyphicon glyphicon-info-sign" tooltip="Plan name displayed on clients"> </span>
+                                </div>
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">{{awesomeThing.groupName}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-3">
+                                    <p class="p-inline">description  </p> 
+                                </div>
+                                <div class="col-md-6 color-3">
+                                    <p class="p-inline" tooltip="alertLow Battery = {{awesomeThing.alertLowBattery}}, 
+                                    alertStorage = {{awesomeThing.alertStorage}},
+                                    autoManageStorageExpiry = {{awesomeThing.autoManageStorageExpiry}},
+                                    createdDate = {{awesomeThing.createdDate}},
+                                    countryCode = {{awesomeThing.countryCode}},
+                                    libraryAccessExpiry = {{awesomeThing.libraryAccessExpiry}},
+                                    maxStorage = {{awesomeThing.maxStorage}},
+                                    netgearSku = {{awesomeThing.netgearSku}},
+                                    numAccounts = {{awesomeThing.numAccounts}},
+                                    numBaseStationsSupported = {{awesomeThing.numBaseStationsSupported}},
+                                    numCamerasSupported = {{awesomeThing.numCamerasSupported}},
+                                    numPushNotify = {{awesomeThing.numPushNotify}},
+                                    numSmartHomeModes = {{awesomeThing.numSmartHomeModes}},
+                                    scheduleExpiry = {{awesomeThing.scheduleExpiry}},
+                                    sharingExpiry = {{awesomeThing.sharingExpiry}},
+                                    storageAutoDelete = {{awesomeThing.storageAutoDelete}}
+                                    ">more info</p>
+                                    <span class="glyphicon glyphicon-info-sign" tooltip="alertLow Battery = {{awesomeThing.alertLowBattery}}, 
+                                    alertStorage = {{awesomeThing.alertStorage}},
+                                    autoManageStorageExpiry = {{awesomeThing.autoManageStorageExpiry}},
+                                    createdDate = {{awesomeThing.createdDate}},
+                                    countryCode = {{awesomeThing.countryCode}},
+                                    libraryAccessExpiry = {{awesomeThing.libraryAccessExpiry}},
+                                    maxStorage = {{awesomeThing.maxStorage}},
+                                    netgearSku = {{awesomeThing.netgearSku}},
+                                    numAccounts = {{awesomeThing.numAccounts}},
+                                    numBaseStationsSupported = {{awesomeThing.numBaseStationsSupported}},
+                                    numCamerasSupported = {{awesomeThing.numCamerasSupported}},
+                                    numPushNotify = {{awesomeThing.numPushNotify}},
+                                    numSmartHomeModes = {{awesomeThing.numSmartHomeModes}},
+                                    scheduleExpiry = {{awesomeThing.scheduleExpiry}},
+                                    sharingExpiry = {{awesomeThing.sharingExpiry}},
+                                    storageAutoDelete = {{awesomeThing.storageAutoDelete}}
+                                    "> </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div ng-show="awesomeThing.id" class="row">
+                            <div ng-show="{{awesomeThing.PlanId == null}}" class="col-md-6 col-md-offset-9  upgrade-button monaco-font"> 
+
+                            <a href="#/marketing/eligibility/{{awesomeThing.countryCode}}" class="btn btn-primary" ng-click="saveRootPlan(awesomeThing)">Change Eligibility</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </div>
+
+
+
+
+        </form>
+    </div>
+
+    <hr>
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <p>With ♥ for <a href="https://twitter.com/ArloSmartHome">@ArloSmartHome</a>
+        </p>
+    </div>
+
+</div>

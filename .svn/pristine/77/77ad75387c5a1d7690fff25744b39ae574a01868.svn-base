@@ -1,0 +1,12 @@
+<div class="modal-body">
+<div style="line-height: 2;" >
+    {{('status_base_station_firmware_update_available' | i18n).replace("{baseStationName}", bs.deviceName)}}
+</div>
+<div style="padding-top: 15px;">
+    <input type="checkbox" ng-model="remindUpdate" ng-change="remindChanged()" /> {{'activity_always_remind_me' | i18n}}
+</div>
+</div>
+<div class="modal-footer">
+    <button class="button-fixed button-cancel" ng-click="$dismiss()" style="margin-right:15px;">{{'activity_cancel' | i18n}}</button>
+    <button class="button-fixed" ng-click="$close()">{{'activity_label_update' | i18n}}</button>
+</div>

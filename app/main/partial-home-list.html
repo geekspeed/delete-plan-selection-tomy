@@ -1,0 +1,190 @@
+<div class="container updateform">
+
+    <form class="thumbnail">
+
+        <p class="p-inline"> Update content for </p>
+        <p class="p-inline">{{idResponse.planName}} | skuId = {{idResponse.netgearSku}}</p>
+        <div class="caption caption-push">
+
+            <ul class="list-inline">
+                <li>
+                    <h3>
+                         <!-- <h2>{{awesomeThing.planName}}</h2>  -->
+                    </h3>
+                </li>
+                <li>
+
+                </li>
+            </ul>
+
+            <!-- {{idResponse}}  -->
+
+
+
+            <div class="row">
+
+
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-1">
+                            <p class="p-inline">Plan Id </p> <span class="glyphicon glyphicon-info-sign" tooltip="value of planId" </span>
+                        </div>
+
+                        <div class="col-md-6 color-1">
+                            <input type="text" class="col-md-6 color-1 monaco-font form-control input-width" name="planId" ng-model="idResponse.planId" value="{{idResponse.planId}}">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-white">
+                            <p class="p-inline">group Number </p> <span class="glyphicon glyphicon-info-sign" tooltip="Number used to group plans on clients" </span>
+                        </div>
+                        <div class="col-md-6 color-white">
+                            <input type="text" class="col-md-6 color-white monaco-font form-control input-width"  ng-model="idResponse.groupNumber" value="{{idResponse.groupNumber}}">
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-2">
+                            <p class="p-inline">Group Name </p><span class="glyphicon glyphicon-info-sign" tooltip="Plan name displayed on clients" </span>
+                        </div>
+                        <div class="col-md-6 color-2">
+                            <input type="text" class="col-md-6 color-2 monaco-font form-control input-width" value="{{idResponse.groupName}}">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-white">
+                            <p class="p-inline">Plan Type </p> <span class="glyphicon glyphicon-info-sign" tooltip="Type of plan, SERVICE, BASIC or STORAGE" </span>
+                        </div>
+                        
+                        <div class="col-md-6 color-white read-only">
+                            <p class="p-inline">{{idResponse.planType}} </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-3">
+                            <p class="p-inline">Description </p> <span class="glyphicon glyphicon-info-sign" tooltip="hover over more info" </span>
+
+
+                        </div>
+
+                        <div class="col-md-6 color-3 read-only">
+                             <p class="p-inline" tooltip="alertLow Battery = {{idResponse.alertLowBattery}}, 
+                                    alertStorage = {{idResponse.alertStorage}},
+                                    autoManageStorageExpiry = {{idResponse.autoManageStorageExpiry}},
+                                    createdDate = {{idResponse.createdDate}},
+                                    countryCode = {{idResponse.countryCode}},
+                                    libraryAccessExpiry = {{idResponse.libraryAccessExpiry}},
+                                    maxStorage = {{idResponse.maxStorage}},
+                                    netgearSku = {{idResponse.netgearSku}},
+                                    numAccounts = {{idResponse.numAccounts}},
+                                    numBaseStationsSupported = {{idResponse.numBaseStationsSupported}},
+                                    numCamerasSupported = {{idResponse.numCamerasSupported}},
+                                    numPushNotify = {{idResponse.numPushNotify}},
+                                    numSmartHomeModes = {{idResponse.numSmartHomeModes}},
+                                    scheduleExpiry = {{idResponse.scheduleExpiry}},
+                                    sharingExpiry = {{idResponse.sharingExpiry}},
+                                    storageAutoDelete = {{idResponse.storageAutoDelete}}
+                                    ">more info</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-white">
+                            <p class="p-inline">Country Code </p>  <span class="glyphicon glyphicon-info-sign" tooltip="value of Country code" </span>
+                        </div>
+
+
+
+                    <div class="col-md-6 color-white read-only">
+                            <p class="p-inline">{{idResponse.countryCode}} </p>
+                    </div>
+
+
+<!-- 
+                      <div class="col-md-6 color-white">
+                            <input type="text" class="col-md-6 color-white monaco-font form-control input-width" value="{{idResponse.countryCode}}">
+                        </div> -->
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-6 color-4">
+                            <p class="p-inline">Comments</p><span class="glyphicon glyphicon-info-sign" tooltip="value of Country code" </span>
+                        </div>
+
+                    <div class="col-md-6 color-4 read-only">
+                            <textarea  class="col-md-6 color-4 monaco-font form-control input-width" rows="1" ng-model="idResponse.comments" id="comment">
+                            {{idResponse.comments}}
+                            </textarea>
+                    </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-6 col-md-offset-9  upgrade-button">
+
+                    <a href="#/" class="btn btn-default">Cancel</a>
+                    <a ng-click="updateContent()" class="btn btn-success">Update2</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</form>
+</div>

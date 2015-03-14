@@ -1,0 +1,1662 @@
+﻿[
+  {
+    "key": "activity_back",
+    "value": "Retour"
+  },
+  {
+    "key": "label_required_fields",
+    "value": "Tous les champs sont obligatoires sauf s'ils portent la mention 'Facultatif'"
+  },
+  {
+    "key": "activity_continue",
+    "value": "Continuer"
+  },
+  {
+    "key": "activity_done",
+    "value": "Terminé"
+  },
+  {
+    "key": "activity_submit",
+    "value": "Envoyer"
+  },
+  {
+    "key": "activity_cancel",
+    "value": "Annuler"
+  },
+  {
+    "key": "label_optional",
+    "value": "Facultatif"
+  },
+  {
+    "key": "label_optional_mark",
+    "value": "(optional)"
+  },
+  {
+    "key": "label_required_mark",
+    "value": "(required)"
+  },
+  {
+    "key": "status_label_offline",
+    "value": "Hors ligne"
+  },
+  {
+    "key": "status_label_getting_status",
+    "value": "Obtention de l'état..."
+  },
+  {
+    "key": "status_label_loading",
+    "value": "Chargement…"
+  },
+  {
+    "key": "status_label_please_wait",
+    "value": "Patientez…"
+  },
+  {
+    "key": "status_label_registering_new_user",
+    "value": "Enregistrement du nouvel utilisateur…"
+  },
+  {
+    "key": "status_label_is_required",
+    "value": " requis(e)"
+  },
+  {
+    "key": "status_label_busy",
+    "value": "Occupé"
+  },
+  {
+    "key": "navigation_label_mode",
+    "value": "Mode"
+  },
+  {
+    "key": "navigation_label_cameras",
+    "value": "Caméras"
+  },
+  {
+    "key": "navigation_label_library",
+    "value": "Bibliothèque"
+  },
+  {
+    "key": "navigation_label_settings",
+    "value": "Paramètres"
+  },
+  {
+    "key": "activity_first",
+    "value": "DEBUT"
+  },
+  {
+    "key": "activity_today",
+    "value": "AUJOURD'HUI"
+  },
+  {
+    "key": "activity_select",
+    "value": "Sélectionner"
+  },
+  {
+    "key": "activity_close",
+    "value": "Fermer"
+  },
+  {
+    "key": "activity_yes",
+    "value": "OUI"
+  },
+  {
+    "key": "activity_no",
+    "value": "NON"
+  },
+  {
+    "key": "activity_save",
+    "value": "Enregistrer"
+  },
+  {
+    "key": "activity_restore",
+    "value": "Restaurer"
+  },
+  {
+    "key": "activity_select_all",
+    "value": "Tout sélectionner"
+  },
+  {
+    "key": "activity_deselect_all",
+    "value": "Tout désélectionner"
+  },
+  {
+    "key": "activity_delete_mode",
+    "value": "SUPPRIMER LE MODE"
+  },
+  {
+    "key": "activity_delete_rule",
+    "value": "DELETE RULE"
+  },
+  {
+    "key": "activity_add",
+    "value": "Add"
+  },
+  {
+    "key": "activity_edit",
+    "value": "Edit"
+  },
+  {
+    "key": "status_app_upgrade_available",
+    "value": "Une nouvelle version d'Arlo est disponible.  Passez à la nouvelle version dès maintenant pour accéder à votre compte."
+  },
+  {
+    "key": "status_credit_card_requires_upgrade",
+    "value": "Votre carte bancaire est sur le point d'expirer. Mettez à jour vos renseignements de carte bancaire pour profiter d'un service ininterrompu."
+  },
+  {
+    "key": "status_confirm_email",
+    "value": "Confirmez votre adresse e-mail pour recevoir l'alerte de mouvement"
+  },
+  {
+    "key": "default_mode_armed",
+    "value": "Tout mouvement activé"
+  },
+  {
+    "key": "default_mode_disarmed",
+    "value": "Tout mouvement désactivé"
+  },
+  {
+    "key": "default_rule_name",
+    "value": "Enregistrement {cameraName} sur détection de mouvement"
+  },
+  {
+    "key": "info_registration_base_station_vgn",
+    "value": "La station de base sera attribuée à votre compte.  Assurez-vous d'être connecté au même réseau local que la station de base pour que nous puissions détecter la station de base pour vous."
+  },
+  {
+    "key": "info_registration_base_station_time_zone",
+    "value": "Choisissez le fuseau horaire en fonction de l'emplacement de la station de base."
+  },
+  {
+    "key": "info_registration_account_password",
+    "value": "Votre mot de passe doit comporter au moins 6 caractères, dont une majuscule, une minuscule et un chiffre.  Les caractères suivants sont également autorisés : !@#$%^&*()."
+  },
+  {
+    "key": "info_registration_account_phone_number",
+    "value": "Nous utiliserons ce numéro si vous demandez à être appelé.  Cela pourra également nous aider à trouver votre compte si vous appelez l'assistance clientèle.  Cette option reste toutefois facultative."
+  },
+  {
+    "key": "info_settings_renew_subscription",
+    "value": "Choisissez cette option si vous souhaitez que votre abonnement se renouvelle automatiquement."
+  },
+  {
+    "key": "info_settings_manage_storage",
+    "value": "Nous supprimerons automatiquement les fichiers (hors favoris) après 7 jours afin d'exploiter au mieux votre espace de stockage sur le cloud."
+  },
+  {
+    "key": "info_settings_storage_full_notification",
+    "value": "Choisissez cette option si vous souhaitez être averti lorsque vous avez utilisé 80 % de votre espace de stockage sur le cloud."
+  },
+  {
+    "key": "info_settings_invert_image",
+    "value": "Si nécessaire, vous pouvez monter votre caméra à l'envers et choisir cette option pour inverser l'image en conséquence."
+  },
+  {
+    "key": "info_settings_position_mode",
+    "value": "Utilisez cette option lorsque vous installez votre caméra.  Nous limitons le temps de latence afin que vous puissiez visualiser en temps quasi-réel l'image enregistrée par votre caméra."
+  },
+  {
+    "key": "info_settings_motion_detection_test",
+    "value": "Utilisez cette option lorsque vous installez votre caméra.  Au lieu de déclencher l'enregistrement d'une vidéo lorsqu'un mouvement est détecté, le voyant d'état clignote."
+  },
+  {
+    "key": "info_base_station_rules",
+    "value": "Set rules to customize how your videos are recorded and optionally send the recordings to yourself or others."
+  },
+  {
+    "key": "error_no_internet_connection",
+    "value": "Votre station de base n'est pas connectée à Internet.  Vérifiez votre connexion Internet."
+  },
+  {
+    "key": "error_service_unavailable",
+    "value": "Désolé, Arlo est actuellement indisponible. L'activité va reprendre dans {time}."
+  },
+  {
+    "key": "error_setup_requires_wifi",
+    "value": "Nous ne pouvons pas configurer votre compte pour le moment car nous n'arrivons pas à détecter votre station de base.\n\nAssurez-vous que votre station de base est allumée et connectée à Internet, puis vérifiez que votre appareil est connecté au même réseau Wi-Fi que la station de base.  "
+  },
+  {
+    "key": "error_http_500",
+    "value": "Désolé, Arlo est actuellement indisponible.  Réessayez ultérieurement."
+  },
+  {
+    "key": "error_http_501",
+    "value": "Désolé, Arlo est actuellement indisponible.  Réessayez ultérieurement."
+  },
+  {
+    "key": "error_http_502",
+    "value": "Désolé, Arlo est actuellement indisponible.  Réessayez ultérieurement."
+  },
+  {
+    "key": "error_http_503",
+    "value": "Arlo est actuellement en cours de maintenance. L'activité va reprendre dans {time}."
+  },
+  {
+    "key": "base_station_error_4000",
+    "value": "Désolé, nous n'avons trouvé aucune caméra associée à la station de base.  Synchronisez votre caméra."
+  },
+  {
+    "key": "base_station_error_4003",
+    "value": "Désolé, les caméras en cours d'utilisation ne peuvent pas être supprimées.  Pour supprimer cette caméra, mettez-la hors ligne."
+  },
+  {
+    "key": "base_station_error_4006",
+    "value": "Votre caméra est en cours d'utilisation.  Attendez la fin de l'opération pour continuer.  Vous pouvez également éteindre votre caméra, puis la rallumer pour effectuer cette opération."
+  },
+  {
+    "key": "base_station_error_4009",
+    "value": "Désolé, les caméras en cours d'utilisation ne peuvent pas être supprimées.  Pour supprimer cette caméra, mettez-la hors ligne."
+  },
+  {
+    "key": "base_station_error_4011",
+    "value": "Vous ne pouvez pas diffuser le flux de plus de 4 caméras.  Arrêtez la diffusion d'une autre caméra pour lancer la diffusion de celle-ci."
+  },
+  {
+    "key": "login_label_username",
+    "value": "E-mail"
+  },
+  {
+    "key": "login_label_password",
+    "value": "Mot de passe"
+  },
+  {
+    "key": "login_activity_login",
+    "value": "Connexion"
+  },
+  {
+    "key": "login_label_remember_me",
+    "value": "Conserver mes informations"
+  },
+  {
+    "key": "login_activity_username_password_help",
+    "value": "Nom d'utilisateur ou mot de passe oublié ?"
+  },
+  {
+    "key": "login_logout_conf_dialog_message",
+    "value": "Voulez-vous vraiment vous déconnecter ?"
+  },
+  {
+    "key": "login_activity_new_system_setup",
+    "value": "Nouvelle configuration système"
+  },
+  {
+    "key": "login_error_validation_username",
+    "value": "Le mot de passe ou le nom d'utilisateur est incorrect."
+  },
+  {
+    "key": "login_activity_create_account",
+    "value": "Créer un compte"
+  },
+  {
+    "key": "password_help_label_username_help",
+    "value": "Saisissez votre adresse e-mail pour recevoir un lien de réinitialisation du mot de passe."
+  },
+  {
+    "key": "password_help_label_username",
+    "value": "E-mail"
+  },
+  {
+    "key": "password_help_label_email_sent",
+    "value": "Un lien vous a été envoyé par e-mail pour réinitialiser le mot de passe."
+  },
+  {
+    "key": "password_help_error_validation_input_username",
+    "value": "Le nouvel ID d'utilisateur doit être une adresse e-mail valide"
+  },
+  {
+    "key": "password_help_error_username_not_found",
+    "value": "L'adresse e-mail ne correspond à aucun compte. Vérifiez que vous avez bien saisi l'adresse ou essayez-en une autre."
+  },
+  {
+    "key": "getting_started_label_title",
+    "value": "Démarrage"
+  },
+  {
+    "key": "getting_started_label_help",
+    "value": "Connexion du système à Internet"
+  },
+  {
+    "key": "system_setup_label_title",
+    "value": "Configuration du système"
+  },
+  {
+    "key": "system_setup_label_select_serial_number",
+    "value": "Select Base Station Serial Number"
+  },
+  {
+    "key": "system_setup_label_serial_number",
+    "value": "Numéro de série de la station de base"
+  },
+  {
+    "key": "system_setup_activity_serial_number_info",
+    "value": "Si le numéro de série n'est pas détecté automatiquement, vous pouvez le trouver à l'arrière de votre station de base."
+  },
+  {
+    "key": "system_setup_label_time_zone",
+    "value": "Choisissez le fuseau horaire du lieu d'installation de la station de base."
+  },
+  {
+    "key": "system_setup_activity_time_zone_info",
+    "value": "Numéro de série de la station de base (indiquez la station principale, vous pourrez en enregistrer d'autres plus tard) :"
+  },
+  {
+    "key": "account_setup_label_title",
+    "value": "Configuration du compte"
+  },
+  {
+    "key": "account_setup_label_username",
+    "value": "E-mail"
+  },
+  {
+    "key": "account_setup_label_password",
+    "value": "Mot de passe"
+  },
+  {
+    "key": "account_setup_label_reenter_password",
+    "value": "Confirmation du mot de passe"
+  },
+  {
+    "key": "account_setup_label_security_question",
+    "value": "Question de sécurité"
+  },
+  {
+    "key": "account_setup_label_security_answer",
+    "value": "Réponse"
+  },
+  {
+    "key": "account_setup_label_phone_number",
+    "value": "Numéro de téléphone"
+  },
+  {
+    "key": "account_setup_activity_password_info",
+    "value": "Le mot de passe doit comporter au moins 6 caractères, mais AUCUN des caractères suivants : /, \\, |, <, >, : (deux points), ; (point-virgule) et apostrophe \"'\"."
+  },
+  {
+    "key": "account_setup_activity_phone_number_info",
+    "value": "Ceci est le numéro de téléphone que nous utiliserons si vous demandez à être rappelé par notre assistance technique."
+  },
+  {
+    "key": "account_setup_label_accept_tos",
+    "value": "J'accepte les conditions de service"
+  },
+  {
+    "key": "account_setup_label_accept_privacy_policy",
+    "value": "J'accepte la politique de confidentialité"
+  },
+  {
+    "key": "error_validation_username",
+    "value": "Indiquez une adresse e-mail valide.  Assurez-vous d'inclure le \"@\" et le nom de domaine (par exemple, @gmail.com)."
+  },
+  {
+    "key": "error_validation_password",
+    "value": "Saisissez un nouveau mot de passe.  Le mot de passe doit comporter au moins 6 caractères, dont 1 majuscule, 1 minuscule et 1 chiffre. Les caractères suivants sont autorisés : ! @ # $ % ^ & * ( ) "
+  },
+  {
+    "key": "error_validation_security_answer",
+    "value": ""
+  },
+  {
+    "key": "error_validation_password_mismatch",
+    "value": "Les mots de passe ne correspondent pas. Saisissez-les à nouveau."
+  },
+  {
+    "key": "sync_cameras_label_title",
+    "value": "Synchronisation des caméras"
+  },
+  {
+    "key": "sync_cameras_label_help",
+    "value": "Synchronisez vos caméras"
+  },
+  {
+    "key": "service_selection_label_title",
+    "value": "Choix de l'abonnement"
+  },
+  {
+    "key": "service_selection_label_elite",
+    "value": "Elite"
+  },
+  {
+    "key": "service_selection_label_elite_storage",
+    "value": "Enregistrement numérique cloud 3 Go"
+  },
+  {
+    "key": "service_selection_label_elite_push_notifications",
+    "value": "Notifications Push"
+  },
+  {
+    "key": "service_selection_label_elite_cameras",
+    "value": "Jusqu'à 20 caméras"
+  },
+  {
+    "key": "service_selection_label_premier",
+    "value": "Premier"
+  },
+  {
+    "key": "service_selection_label_premier_storage",
+    "value": "Enregistrement numérique cloud 1 Go"
+  },
+  {
+    "key": "service_selection_label_premier_push_notifications",
+    "value": "Notifications Push"
+  },
+  {
+    "key": "service_selection_label_premier_cameras",
+    "value": "Jusqu'à 10 caméras"
+  },
+  {
+    "key": "service_selection_label_base_level",
+    "value": "LIBRE"
+  },
+  {
+    "key": "service_selection_label_base_level_storage",
+    "value": "Enregistrement numérique cloud 200 Mo"
+  },
+  {
+    "key": "service_selection_label_base_level_cameras",
+    "value": "Jusqu'à 5 caméras"
+  },
+  {
+    "key": "service_selection_activity_base_level",
+    "value": "Inclus avec votre système"
+  },
+  {
+    "key": "payment_method_label_title",
+    "value": "Mode de paiement"
+  },
+  {
+    "key": "payment_method_label_credit_card",
+    "value": "Carte de crédit"
+  },
+  {
+    "key": "payment_method_label_card_number",
+    "value": "Numéro de carte"
+  },
+  {
+    "key": "payment_method_label_card_expiration",
+    "value": "MM/AAAA"
+  },
+  {
+    "key": "payment_method_label_security_code",
+    "value": "Code de sécurité (3 ou 4 chiffres au dos de la carte)"
+  },
+  {
+    "key": "payment_method_label_billing",
+    "value": "Facturation"
+  },
+  {
+    "key": "payment_method_label_billing_first_name",
+    "value": "Prénom"
+  },
+  {
+    "key": "payment_method_label_billing_last_name",
+    "value": "Nom de famille"
+  },
+  {
+    "key": "payment_method_label_billing_company_name",
+    "value": "Nom de la société (facultatif)"
+  },
+  {
+    "key": "payment_method_label_billing_street_address_1",
+    "value": "Ligne d'adresse 1"
+  },
+  {
+    "key": "payment_method_label_billing_street_address_2",
+    "value": "Ligne d'adresse 2 (facultatif)"
+  },
+  {
+    "key": "payment_method_label_billing_street_address_3",
+    "value": "Appartement ou suite (facultatif)"
+  },
+  {
+    "key": "payment_method_label_billing_city",
+    "value": "Ville"
+  },
+  {
+    "key": "payment_method_label_billing_state",
+    "value": "Etat"
+  },
+  {
+    "key": "payment_method_label_billing_zip_code",
+    "value": "Code postal"
+  },
+  {
+    "key": "payment_method_label_billing_country",
+    "value": "Pays"
+  },
+  {
+    "key": "payment_method_label_billing_vat",
+    "value": "TVA"
+  },
+  {
+    "key": "payment_method_label_renew_service_plan",
+    "value": "Renouvellement automatique de mon abonnement"
+  },
+  {
+    "key": "error_validation_card_number_unsupported",
+    "value": "Désolé, nous n'acceptons que les cartes Visa et MasterCard pour le moment."
+  },
+  {
+    "key": "error_validation_card_number",
+    "value": "Vérifiez votre numéro de carte, sa date d'expiration et le code de sécurité."
+  },
+  {
+    "key": "error_validation_expiration",
+    "value": "Vérifiez votre numéro de carte, sa date d'expiration et le code de sécurité."
+  },
+  {
+    "key": "error_validation_security_code",
+    "value": "Vérifiez votre numéro de carte, sa date d'expiration et le code de sécurité."
+  },
+  {
+    "key": "error_validation_billing_first_name",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "error_validation_billing_last_name",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "error_validation_billing_company_name",
+    "value": ""
+  },
+  {
+    "key": "error_validation_billing_street_address_1",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "error_validation_billing_street_address_2",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "error_validation_billing_street_address_3",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "error_validation_billing_city",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "error_validation_billing_state",
+    "value": ""
+  },
+  {
+    "key": "error_validation_billing_zip_code",
+    "value": "Le code postal doit être correctement saisi"
+  },
+  {
+    "key": "error_validation_billing_country",
+    "value": ""
+  },
+  {
+    "key": "error_validation_billing_vat",
+    "value": "Nous ne reconnaissons pas le numéro de TVA saisi.  Saisissez un numéro de TVA valide."
+  },
+  {
+    "key": "camera_state_offline",
+    "value": "La caméra est hors ligne."
+  },
+  {
+    "key": "camera_state_gateway_offline",
+    "value": "Votre station de base n'est pas connectée à Internet. \nVérifiez qu'elle est sous tension et connectée à votre routeur."
+  },
+  {
+    "key": "camera_state_battery_level_critical",
+    "value": "Il est temps de changer les piles."
+  },
+  {
+    "key": "camera_state_internet_offline",
+    "value": "Vous n'êtes pas connecté à Internet. Vérifiez votre connexion."
+  },
+  {
+    "key": "camera_player_plugin_not_installed",
+    "value": "Une version plus récente d'Adobe Flash Player est requise. Installez la dernière version disponible <a href=\"http://get.adobe.com/flashplayer/\">ici</a>."
+  },
+  {
+    "key": "camera_state_new",
+    "value": "Diffusez les images de la nouvelle caméra"
+  },
+  {
+    "key": "library_activity_filter",
+    "value": "Filtre"
+  },
+  {
+    "key": "filter_label_types",
+    "value": "Afficher les types suivants :"
+  },
+  {
+    "key": "filter_label_all",
+    "value": "Tout"
+  },
+  {
+    "key": "filter_label_favorites",
+    "value": "Favoris"
+  },
+  {
+    "key": "filter_label_non_favorites",
+    "value": "Hors favoris"
+  },
+  {
+    "key": "filter_label_cameras",
+    "value": "Afficher les fichiers de la ou des caméras :"
+  },
+  {
+    "key": "select_bar_label_favorite",
+    "value": "Ajouter aux favoris"
+  },
+  {
+    "key": "select_bar_label_share",
+    "value": "Partager"
+  },
+  {
+    "key": "select_bar_label_download",
+    "value": "Télécharger"
+  },
+  {
+    "key": "select_bar_label_delete",
+    "value": "Supprimer"
+  },
+  {
+    "key": "share_email_link",
+    "value": "Envoyer le lien par e-mail"
+  },
+  {
+    "key": "share_email_subject",
+    "value": "Watch my Arlo Video!"
+  },
+  {
+    "key": "share_email_body",
+    "value": "Hi,\n\n\n\nCheck out this video from my Arlo camera.  Just click the link to watch it.  NOTE: the link will expire after {24 hours}.\n\n\n\n{link} {thumbnail}\n\n\n\nEnjoy!\n\n\n\n{first name}"
+  },
+  {
+    "key": "share_copy_link",
+    "value": "Copier le lien"
+  },
+  {
+    "key": "settings_label_title",
+    "value": "Paramètres"
+  },
+  {
+    "key": "base_station_settings_label_schedule",
+    "value": "Planning"
+  },
+  {
+    "key": "base_station_settings_label_modes",
+    "value": "Mode"
+  },
+  {
+    "key": "base_station_settings_label_rules",
+    "value": "Règles"
+  },
+  {
+    "key": "base_station_settings_label_rule",
+    "value": "Règle"
+  },
+  {
+    "key": "base_station_settings_label_settings",
+    "value": "Paramètres de la station de base"
+  },
+  {
+    "key": "account_settings_label_title",
+    "value": "Account Settings"
+  },
+  {
+    "key": "account_settings_label_subscription",
+    "value": "Abonnement"
+  },
+  {
+    "key": "account_settings_label_personal",
+    "value": "Informations personnelles"
+  },
+  {
+    "key": "account_settings_label_friends",
+    "value": "Amis"
+  },
+  {
+    "key": "system_settings_label_title",
+    "value": "Paramètres système"
+  },
+  {
+    "key": "system_settings_label_preferences",
+    "value": "Préférences"
+  },
+  {
+    "key": "system_settings_label_camera_order",
+    "value": "Ordre des caméras"
+  },
+  {
+    "key": "system_settings_label_about",
+    "value": "A propos de"
+  },
+  {
+    "key": "base_station_schedule_label_title",
+    "value": "Planning"
+  },
+  {
+    "key": "base_station_schedule_label_start_time",
+    "value": "Heure de début"
+  },
+  {
+    "key": "base_station_schedule_label_stop_time",
+    "value": "Heure de fin"
+  },
+  {
+    "key": "base_station_modes_label_title",
+    "value": "Modes"
+  },
+  {
+    "key": "add_mode_label_title",
+    "value": "Définition des modes"
+  },
+  {
+    "key": "add_mode_label_title_new",
+    "value": "New Mode"
+  },
+  {
+    "key": "add_mode_activity_modes",
+    "value": "Modes"
+  },
+  {
+    "key": "add_mode_label_name",
+    "value": "Nouveau mode"
+  },
+  {
+    "key": "add_mode_label_mode_name",
+    "value": "Name"
+  },
+  {
+    "key": "add_mode_placeholder_mode_name",
+    "value": "mode name"
+  },
+  {
+    "key": "add_mode_label_select_rules",
+    "value": "Select rules for this mode"
+  },
+  {
+    "key": "add_mode_label_add_rule",
+    "value": "Ajouter une règle"
+  },
+  {
+    "key": "add_rule_label_title",
+    "value": "Nouvelle règle"
+  },
+  {
+    "key": "base_station_rules_label_title",
+    "value": "Rules"
+  },
+  {
+    "key": "rule_label_title",
+    "value": "Définition de la règle"
+  },
+  {
+    "key": "rule_label_name",
+    "value": "Nom de la règle"
+  },
+  {
+    "key": "rule_label_rule_name",
+    "value": "Name"
+  },
+  {
+    "key": "rule_label_rule_placeholder",
+    "value": "rule"
+  },
+  {
+    "key": "rule_label_trigger_title",
+    "value": "SI les critères suivants s'appliquent :"
+  },
+  {
+    "key": "rule_label_motion_detected",
+    "value": "Du mouvement est détecté"
+  },
+  {
+    "key": "rule_label_trigger_on",
+    "value": "Activé"
+  },
+  {
+    "key": "rule_label_trigger_sensitivity",
+    "value": "Démarrer la sensibilité"
+  },
+  {
+    "key": "rule_label_action_title",
+    "value": "PUIS effectuer la ou les opérations suivantes :"
+  },
+  {
+    "key": "rule_label_action_record_video",
+    "value": "Enregistrer la vidéo"
+  },
+  {
+    "key": "rule_label_action_take_snapshot",
+    "value": "Prendre un instantané"
+  },
+  {
+    "key": "rule_label_action_on",
+    "value": "Sur {cameraName}"
+  },
+  {
+    "key": "rule_label_action_sensitivity",
+    "value": "Terminer la sensibilité"
+  },
+  {
+    "key": "rule_label_action_in_hot_zone",
+    "value": "Dans cette zone sensible"
+  },
+  {
+    "key": "rule_label_email_action_title",
+    "value": "ET procéder comme suit :"
+  },
+  {
+    "key": "rule_label_send_email_alert",
+    "value": "Envoyer un e-mail d'alerte"
+  },
+  {
+    "key": "rule_label_send_email_list",
+    "value": "A cette liste"
+  },
+  {
+    "key": "rule_label_sensitivity_fewer_videos",
+    "value": "Moins de vidéos"
+  },
+  {
+    "key": "rule_label_sensitivity_more_videos",
+    "value": "Plus de vidéos"
+  },
+  {
+    "key": "rule_label_recording_time_shorter_videos",
+    "value": "Vidéos plus courtes"
+  },
+  {
+    "key": "rule_label_recording_time_longer_videos",
+    "value": "Vidéos plus longues"
+  },
+  {
+    "key": "rule_label_recording_time_unit_seconds",
+    "value": "{timeInSeconds} secondes"
+  },
+  {
+    "key": "rule_label_select_camera",
+    "value": "Sélectionnez la caméra…"
+  },
+  {
+    "key": "rule_trigger_label_title",
+    "value": "Déclenchement"
+  },
+  {
+    "key": "rule_trigger_label_motion_trigger",
+    "value": "SI du mouvement est détecté sur"
+  },
+  {
+    "key": "rule_label_action_record_video_on",
+    "value": "Record video on"
+  },
+  {
+    "key": "email_alert_list_label_title",
+    "value": "Envoyer un e-mail d'alerte"
+  },
+  {
+    "key": "push_notification_label_title",
+    "value": "Envoyer une notification Push"
+  },
+  {
+    "key": "base_station_settings_label_title",
+    "value": "Station de base"
+  },
+  {
+    "key": "base_station_settings_label_name",
+    "value": "Name"
+  },
+  {
+    "key": "base_station_settings_label_placeholder",
+    "value": "base station"
+  },
+  {
+    "key": "base_station_settings_label_time_zone",
+    "value": "Fuseau horaire"
+  },
+  {
+    "key": "base_station_settings_label_auto_update_firmware",
+    "value": "Mise à jour auto du firmware"
+  },
+  {
+    "key": "base_station_settings_label_fw_version",
+    "value": "Version du firmware"
+  },
+  {
+    "key": "base_station_settings_label_hw_version",
+    "value": "Version matérielle"
+  },
+  {
+    "key": "base_station_settings_label_xcloud_id",
+    "value": "ID xCloud"
+  },
+  {
+    "key": "base_station_settings_label_auto_select_channel",
+    "value": "Sélection de canal auto"
+  },
+  {
+    "key": "base_station_settings_label_channel",
+    "value": "Canal"
+  },
+  {
+    "key": "base_station_settings_activity_restart",
+    "value": "REDEMARRER"
+  },
+  {
+    "key": "base_station_settings_activity_deactivate",
+    "value": "DESACTIVER"
+  },
+  {
+    "key": "base_station_settings_confirm_restart",
+    "value": "Voulez-vous vraiment redémarrer la station de base {baseStationName} ?"
+  },
+  {
+    "key": "base_station_settings_confirm_deactivate",
+    "value": "Voulez-vous vraiment désactiver la station de base {baseStationName} ?"
+  },
+  {
+    "key": "base_station_settings_channel_info",
+    "value": "Pour la première station de base, vous devez sélectionner le même canal que le routeur WiFi.  Les autres stations de base de ce lieu ou bâtiment doivent être situés à au moins 6 m de distance les unes des autres et sur des canaux différents."
+  },
+  {
+    "key": "base_station_settings_message_rebooting",
+    "value": "La station de base redémarre..."
+  },
+  {
+    "key": "manual_fw_update_label_title",
+    "value": "Version du firmware"
+  },
+  {
+    "key": "manual_fw_update_confirm_update",
+    "value": "Mettre à jour le firmware vers {fwversion} ?"
+  },
+  {
+    "key": "subscription_label_title",
+    "value": "Abonnement"
+  },
+  {
+    "key": "subscription_label_service_level_title",
+    "value": "Niveau de service"
+  },
+  {
+    "key": "subscription_label_expires",
+    "value": "Expiration"
+  },
+  {
+    "key": "subscription_activity_change_service",
+    "value": "MODIFIER L'ABONNEMENT"
+  },
+  {
+    "key": "change_service_activity_change_service",
+    "value": "Modifier l'abonnement"
+  },
+  {
+    "key": "change_service_activity_renew_service",
+    "value": "Renouveler l'abonnement"
+  },
+  {
+    "key": "change_service_activity_cancel_service",
+    "value": "ANNULER L'ABONNEMENT"
+  },
+  {
+    "key": "change_service_activity_cancel",
+    "value": "Annuler"
+  },
+  {
+    "key": "change_service_activity_dont_cancel",
+    "value": "NE PAS ANNULER"
+  },
+  {
+    "key": "subscription_label_payment_method_title",
+    "value": "Mode de paiement"
+  },
+  {
+    "key": "subscription_activity_update_payment_method",
+    "value": "Mise à jour"
+  },
+  {
+    "key": "subscription_label_cloud_storage_title",
+    "value": "Stockage sur le cloud"
+  },
+  {
+    "key": "subscription_activity_buy_more_cloud_storage",
+    "value": "Acheter plus d'espace sur le cloud"
+  },
+  {
+    "key": "subscription_activity_delete_all_unlocked_files",
+    "value": "SUPPRIMER LES FICHIERS DEVERROUILLES"
+  },
+  {
+    "key": "subscription_label_delete_all_unlocked_files_note",
+    "value": "REMARQUE : les 'Favoris' ne seront pas supprimés"
+  },
+  {
+    "key": "subscription_label_recycle_bin",
+    "value": "Corbeille"
+  },
+  {
+    "key": "subscription_label_cameras_title",
+    "value": "Caméras"
+  },
+  {
+    "key": "subscription_label_cameras_supported",
+    "value": "Prises en charge"
+  },
+  {
+    "key": "subscription_label_cameras_connected",
+    "value": "Connecté"
+  },
+  {
+    "key": "subscription_label_cameras_online_retailers",
+    "value": "Revendeurs en ligne"
+  },
+  {
+    "key": "subscription_activity_buy_more_cameras",
+    "value": "Acheter…"
+  },
+  {
+    "key": "subscription_label_base_stations_title",
+    "value": "Stations de base"
+  },
+  {
+    "key": "subscription_label_base_stations_supported",
+    "value": "Prises en charge"
+  },
+  {
+    "key": "subscription_label_base_stations_connected",
+    "value": "Connecté"
+  },
+  {
+    "key": "subscription_label_base_stations_online_retailers",
+    "value": "Revendeurs en ligne"
+  },
+  {
+    "key": "subscription_activity_buy_more_base_stations",
+    "value": "Acheter…"
+  },
+  {
+    "key": "subscription_label_add_base_station",
+    "value": "Ajouter une station de base"
+  },
+  {
+    "key": "buy_cloud_storage_label_title",
+    "value": "Stockage sur le cloud"
+  },
+  {
+    "key": "buy_cloud_storage_label_no_extra_cloud_storage",
+    "value": "Pas d'espace supplémentaire sur le cloud"
+  },
+  {
+    "key": "buy_cloud_storage_label_current_plan",
+    "value": "Abonnement actuel"
+  },
+  {
+    "key": "buy_cloud_storage_activity_purchase_storage",
+    "value": "ACHETER DE L'ESPACE"
+  },
+  {
+    "key": "add_base_station_activity_add_base_station",
+    "value": "AJOUTER UNE STATION DE BASE"
+  },
+  {
+    "key": "recycle_bin_label_title",
+    "value": "Corbeille"
+  },
+  {
+    "key": "personal_info_email_confirmed",
+    "value": "Confirmée"
+  },
+  {
+    "key": "personal_info_email_not_confirmed",
+    "value": "Non confirmée"
+  },
+  {
+    "key": "personal_info_label_username",
+    "value": "E-mail"
+  },
+  {
+    "key": "personal_info_label_password",
+    "value": "Mot de passe"
+  },
+  {
+    "key": "personal_info_label_retype_password",
+    "value": "Retype password"
+  },
+  {
+    "key": "personal_info_label_remember_me",
+    "value": "Conserver mes informations"
+  },
+  {
+    "key": "personal_info_label_first_name",
+    "value": "Prénom"
+  },
+  {
+    "key": "personal_info_label_last_name",
+    "value": "Nom de famille"
+  },
+  {
+    "key": "personal_info_autologin",
+    "value": "Auto login"
+  },
+  {
+    "key": "personal_info_logout",
+    "value": "Log Out"
+  },
+  {
+    "key": "personal_info_placeholder_username",
+    "value": "email"
+  },
+  {
+    "key": "personal_info_placeholder_password",
+    "value": "password"
+  },
+  {
+    "key": "personal_info_placeholder_password_verify",
+    "value": "verify password"
+  },
+  {
+    "key": "personal_info_placeholder_first_name",
+    "value": "first name"
+  },
+  {
+    "key": "personal_info_placeholder_last_name",
+    "value": "last name"
+  },
+  {
+    "key": "friends_label_title",
+    "value": "Amis"
+  },
+  {
+    "key": "friends_label_pending",
+    "value": "En attente"
+  },
+  {
+    "key": "friends_label_accepted",
+    "value": "Accepté"
+  },
+  {
+    "key": "friends_label_expired",
+    "value": "Expiré"
+  },
+  {
+    "key": "edit_friends_label_first_name",
+    "value": "Prénom"
+  },
+  {
+    "key": "edit_friends_label_last_name",
+    "value": "Nom de famille"
+  },
+  {
+    "key": "edit_friends_label_email",
+    "value": "E-mail"
+  },
+  {
+    "key": "edit_friends_activity_send_invite",
+    "value": "ENVOYER UNE INVITATION"
+  },
+  {
+    "key": "edit_friends_activity_resend_invite",
+    "value": "RENVOYER L'INVITATION"
+  },
+  {
+    "key": "edit_friends_label_camera_access",
+    "value": "Afficher la caméra et les images associées"
+  },
+  {
+    "key": "edit_friends_label_camera_adjust_settings",
+    "value": "Accorder des droits d'administration"
+  },
+  {
+    "key": "edit_friends_label_camera_adjust_settings_help",
+    "value": "Autoriser l'ami à modifier les paramètres"
+  },
+  {
+    "key": "edit_friends_activity_delete_friend",
+    "value": "RETIRER CET AMI"
+  },
+  {
+    "key": "prefs_label_title",
+    "value": "Préférences"
+  },
+  {
+    "key": "prefs_label_storage_title",
+    "value": "Stockage"
+  },
+  {
+    "key": "prefs_label_other_title",
+    "value": "Notifications"
+  },
+  {
+    "key": "prefs_label_manage_storage",
+    "value": "Gérer le stockage"
+  },
+  {
+    "key": "prefs_activity_manage_storage_info",
+    "value": "Les fichiers déverrouillés de plus de 30 jours seront automatiquement supprimés."
+  },
+  {
+    "key": "prefs_label_if_storage_full",
+    "value": "Si l'espace de stockage est plein"
+  },
+  {
+    "key": "prefs_label_delete_oldest_files",
+    "value": "supprimer les fichiers les plus anciens pour libérer de l'espace"
+  },
+  {
+    "key": "prefs_label_do_not_record",
+    "value": "ne pas effectuer de nouveaux enregistrements"
+  },
+  {
+    "key": "prefs_label_storage_full_notification",
+    "value": "Notification de stockage complet"
+  },
+  {
+    "key": "prefs_label_low_battery_notification",
+    "value": "Notification de batterie faible"
+  },
+  {
+    "key": "camera_order_label_title",
+    "value": "Ordre des caméras"
+  },
+  {
+    "key": "camera_order_confirm_delete_camera",
+    "value": "La caméra \"{cameraName}\" sera supprimée de votre système.  Pour l'ajouter à nouveau, utilisez le bouton de synchronisation."
+  },
+  {
+    "key": "about_label_title",
+    "value": "A propos de"
+  },
+  {
+    "key": "about_label_version",
+    "value": "Version"
+  },
+  {
+    "key": "about_label_released",
+    "value": "Publiée le"
+  },
+  {
+    "key": "about_review_terms_of_service",
+    "value": "Voir les conditions de service"
+  },
+  {
+    "key": "about_review_privacy_policy",
+    "value": "Voir la politique de confidentialité"
+  },
+  {
+    "key": "camera_settings_label_title",
+    "value": "Paramètres des caméras"
+  },
+  {
+    "key": "camera_settings_label_camera_name",
+    "value": "Name"
+  },
+  {
+    "key": "camera_settings_label_camera_placeholder",
+    "value": "camera"
+  },
+  {
+    "key": "camera_settings_label_adjust_settings_title",
+    "value": "Régler les paramètres"
+  },
+  {
+    "key": "camera_settings_label_power_management_title",
+    "value": "Gestion de l'alimentation"
+  },
+  {
+    "key": "camera_settings_label_pan_zoom_title",
+    "value": "Recadrage et zoom"
+  },
+  {
+    "key": "camera_settings_label_invert_image",
+    "value": "Inverser l'image"
+  },
+  {
+    "key": "camera_settings_label_motion_detection_test",
+    "value": "Test de détection de mouvement"
+  },
+  {
+    "key": "camera_settings_label_position_mode",
+    "value": "Mode de positionnement"
+  },
+  {
+    "key": "camera_settings_label_best_video",
+    "value": "Vidéo optimale"
+  },
+  {
+    "key": "camera_settings_label_optimized",
+    "value": "Optimisée"
+  },
+  {
+    "key": "camera_settings_label_best_battery_life",
+    "value": "Autonomie de la batterie optimale"
+  },
+  {
+    "key": "camera_settings_label_invert_image_description",
+    "value": "Utiliser pour inverser l'image caméra"
+  },
+  {
+    "key": "camera_settings_label_position_mode_description",
+    "value": "Utiliser lors de l'orientation de la caméra"
+  },
+  {
+    "key": "camera_settings_label_motion_detection_test_description",
+    "value": "Le voyant clignote pour signaler la détection de mouvements"
+  },
+  {
+    "key": "camera_settings_label_best_video_description",
+    "value": "Peut réduire la durée de vie des piles"
+  },
+  {
+    "key": "camera_settings_label_optimized_description",
+    "value": "Réglage équilibré entre qualité de la vidéo et durée de vie des piles"
+  },
+  {
+    "key": "camera_settings_label_best_battery_life_description",
+    "value": "Peut réduire la qualité de la vidéo"
+  },
+  {
+    "key": "change_service_label_title",
+    "value": "Modifier l'abonnement"
+  },
+  {
+    "key": "change_service_activity_learn_more",
+    "value": "Plus d'infos"
+  },
+  {
+    "key": "change_service_activity_purchase_plan",
+    "value": "SOUSCRIRE"
+  },
+  {
+    "key": "confirm_purchase_title",
+    "value": "Confirmer l'achat"
+  },
+  {
+    "key": "confirm_purchase_label_charge_info",
+    "value": "Votre souscription à {serviceplanname} auprès de {sellingentity} sera facturée comme suit :"
+  },
+  {
+    "key": "confirm_purchase_label_price",
+    "value": "Prix : {amount}"
+  },
+  {
+    "key": "confirm_purchase_label_prorated_credit",
+    "value": "Crédit au prorata : {amount}"
+  },
+  {
+    "key": "confirm_purhcase_label_discount",
+    "value": "Remise : {amount}"
+  },
+  {
+    "key": "confirm_purchase_label_taxes",
+    "value": "Taxes : {amount}"
+  },
+  {
+    "key": "confirm_purchase_label_total",
+    "value": "TOTAL : {amount}"
+  },
+  {
+    "key": "aria_directpost_error_4006",
+    "value": "Désolé, nous n'acceptons pas ce mode de paiement. Nous n'acceptons que les cartes Visa et Mastercard pour le moment."
+  },
+  {
+    "key": "aria_directpost_error_4007",
+    "value": "Saisissez le nom du titulaire de la carte."
+  },
+  {
+    "key": "aria_directpost_error_4008",
+    "value": "Date d'expiration non valide"
+  },
+  {
+    "key": "aria_directpost_error_4009",
+    "value": "Numéro de carte bancaire non valide"
+  },
+  {
+    "key": "aria_directpost_error_6005",
+    "value": "Il manque des informations dans la demande."
+  },
+  {
+    "key": "aria_directpost_error_6006",
+    "value": "Il manque des informations dans la demande."
+  },
+  {
+    "key": "aria_directpost_error_6007",
+    "value": "Saisissez le numéro de sécurité (cryptogramme visuel).  (Le cryptogramme est un numéro à trois chiffres situé au dos de la carte bancaire qui permet de réduire les risques de fraude.)"
+  },
+  {
+    "key": "aria_directpost_error_6008",
+    "value": "L'adresse ne correspond pas à l'adresse enregistrée.  Vérifiez l'adresse ou essayez une ancienne adresse."
+  },
+  {
+    "key": "aria_directpost_error_6009",
+    "value": "Désolé, une erreur s'est produite.  Réessayez."
+  },
+  {
+    "key": "aria_directpost_error_6010",
+    "value": "Désolé, une erreur s'est produite.  Réessayez."
+  },
+  {
+    "key": "aria_directpost_error_6011",
+    "value": "L'adresse ne correspond pas à l'adresse enregistrée.  Vérifiez l'adresse ou essayez une ancienne adresse."
+  },
+  {
+    "key": "aria_directpost_error_6012",
+    "value": "Saisissez le numéro de sécurité (cryptogramme visuel).  (Le cryptogramme est un numéro à trois chiffres situé au dos de la carte bancaire qui permet de réduire les risques de fraude.)"
+  },
+  {
+    "key": "aria_directpost_error_6013",
+    "value": "Saisissez le numéro de sécurité (cryptogramme visuel).  (Le cryptogramme est un numéro à trois chiffres situé au dos de la carte bancaire qui permet de réduire les risques de fraude.)"
+  },
+  {
+    "key": "aria_directpost_error_6014",
+    "value": "Saisissez le numéro de sécurité (cryptogramme visuel).  (Le cryptogramme est un numéro à trois chiffres situé au dos de la carte bancaire qui permet de réduire les risques de fraude.)"
+  },
+  {
+    "key": "aria_directpost_error_6015",
+    "value": "Les informations de la carte ne correspondent pas aux informations de votre banque.  Saisissez le nom du titulaire et l'adresse de facturation associés à la carte bancaire."
+  },
+  {
+    "key": "aria_directpost_error_6017",
+    "value": "L'adresse ne correspond pas à l'adresse enregistrée.  Vérifiez l'adresse ou essayez une ancienne adresse."
+  },
+  {
+    "key": "aria_directpost_error_6018",
+    "value": "Désolé, une erreur s'est produite.  Réessayez."
+  },
+  {
+    "key": "aria_directpost_error_6019",
+    "value": "Le code postal ne correspond pas à nos informations. Saisissez à nouveau le code postal."
+  },
+  {
+    "key": "aria_directpost_error_6020",
+    "value": "Le code postal ne correspond pas à nos informations. Saisissez à nouveau le code postal."
+  },
+  {
+    "key": "aria_directpost_error_6021",
+    "value": "Le champ Etat/province ne correspond pas à nos informations.  Saisissez à nouveau l'Etat/la province."
+  },
+  {
+    "key": "aria_directpost_error_6022",
+    "value": "Il manque des informations dans la demande."
+  },
+  {
+    "key": "aria_directpost_error_6023",
+    "value": "Saisissez les informations de votre carte Visa ou Mastercard."
+  },
+  {
+    "key": "marketing_how_to_sync_camera_header",
+    "value": "Comment synchroniser une caméra"
+  },
+  {
+    "key": "marketing_how_to_sync_camera_content",
+    "value": "o Mettez des piles dans la caméra. Suivez les indications de polarité\n\no Appuyez sur le bouton de synchronisation 'sync' sur la caméra et sur la station de base\n\no Un voyant à l'avant de la caméra clignote rapidement pendant 10 secondes pour confirmer la synchronisation, puis s'éteint\n\no Le voyant sous l'icône caméra de la station de base s'allume en vert"
+  },
+  {
+    "key": "status_brightness_config_success",
+    "value": "Luminosité enregistrée"
+  },
+  {
+    "key": "label_do",
+    "value": "OUI"
+  },
+  {
+    "key": "label_when",
+    "value": "QUAND"
+  },
+  {
+    "key": "activity_label_update_now",
+    "value": "METTRE A JOUR MAINTENANT"
+  },
+  {
+    "key": "activity_label_update",
+    "value": "METTRE A JOUR"
+  },
+  {
+    "key": "activity_label_dont_update",
+    "value": "NE PAS METTRE A JOUR"
+  },
+  {
+    "key": "status_base_station_firmware_update_available",
+    "value": "Une mise à jour est disponible pour votre station de base. Voulez-vous effectuer la mise à jour maintenant ?"
+  },
+  {
+    "key": "activity_always_remind_me",
+    "value": "Toujours me rappeler"
+  },
+  {
+    "key": "status_app_required_update",
+    "value": "Votre application Arlo nécessite une mise à jour pour continuer."
+  },
+  {
+    "key": "status_app_update",
+    "value": "Une nouvelle version de l'application Arlo est disponible."
+  },
+  {
+    "key": "label_motion_detection_test_description",
+    "value": "{cameraName} est maintenant en mode Test de détection de mouvement.\n\n\n\nLe voyant de la caméra clignote lorsqu'elle détecte un mouvement."
+  },
+  {
+    "key": "label_send_email_confirmation_to",
+    "value": "Envoyer un e-mail de confirmation à {emailAddress} ?"
+  },
+  {
+    "key": "label_subscriptions",
+    "value": "Subscriptions"
+  },
+  {
+    "key": "error_unexpected",
+    "value": "An unexpected error occurred. Please try again."
+  },
+  {
+    "key": "label_confirm_delete_rule",
+    "value": "Are you sure you want to delete the rule {ruleName}?"
+  },
+  {
+    "key": "library_label_confirm_delete_media",
+    "value": "Are you sure you want to delete the selected file(s)?"
+  },
+  {
+    "key": "rule_label_select_motion_device",
+    "value": "Choose motion detection device"
+  },
+  {
+    "key": "rule_label_select_recording_device",
+    "value": "Choose recording device"
+  },
+  {
+    "key": "alert_arlo1",
+    "value": "Arlo detected motion on {cameraName}."
+  },
+  {
+    "key": "alert_arlo2",
+    "value": "Arlo detected motion on {cameraName}. Click here to view the recording."
+  },
+  {
+    "key": "educate_label_library_select",
+    "value": "Click on 'Select' at the top right to see more you can do with your recordings."
+  },
+  {
+    "key": "educate_label_dont_show_again",
+    "value": "Don't show this message again"
+  },
+  {
+    "key": "educate_label_base_station_modes_rules",
+    "value": "Use Rules to set up and manage motion detection, recordings and alerts. Group one or more rules using Modes.\n\nModes can then be selected or scheduled to determine what rules are enabled."
+  },
+  {
+    "key": "activity_ok",
+    "value": "OK"
+  },
+  {
+    "key": "error_unsupported_mp4_playback",
+    "value": "Sorry; your browser does not support HTML5 video in MP4 with H.264. Please use a different browser or download the video."
+  },
+  {
+    "key": "activity_delete",
+    "value": "DELETE"
+  },
+  {
+    "key": "activity_download_and_delete",
+    "value": "DOWNLOAD AND DELETE"
+  },
+  {
+    "key": "recycle_bin_label_empty",
+    "value": "There are no recordings in the recycle bin"
+  },
+  {
+    "key": "edit_friends_label_admin_rights",
+    "value": "Granted Administrative Rights"
+  },
+  {
+    "key": "edit_friends_label_no_admin_rights",
+    "value": "No Admin Rights"
+  },
+  {
+    "key": "error_username_exists",
+    "value": "That email address is taken. Please supply the correct password if you want to use this email address. If you have forgotten your password, you can reset it."
+  },
+  {
+    "key": "ios_alert_arlo1",
+    "value": "Motion is detected on %@."
+  },
+  {
+    "key": "ios_alert_arlo2",
+    "value": "Motion is detected on %@. Click here to view the recording."
+  },
+  {
+    "key": "marketing_label_warning_basic_friend_usage",
+    "value": "Your friend can view your camera for only 30 days under the basic plan. Upgrade Now to allow access beyond the 30 day period"
+  },
+  {
+    "key": "marketing_label_enable_friend_feature",
+    "value": "Upgrade Now to activate this feature"
+  },
+  {
+    "key": "marketing_label_upgrade_now",
+    "value": "Upgrade Now"
+  },
+  {
+    "key": "rule_label_default_value",
+    "value": "Motion on Camera"
+  },
+  {
+    "key": "error_cannot_share_selection",
+    "value": "Sorry; your selected media are not shareable. Please select a different set of recordings and snapshots."
+  },
+  {
+    "key": "base_station_settings_confirm_restart_busy",
+    "value": "Your camera(s) is busy at the current moment. Are you sure you want to restart your base station: {baseStationName}?"
+  },
+  {
+    "key": "label_confirm_delete_unlocked_files",
+    "value": "Are you sure you want to delete all non-favorite recordings and snapshots?\n\nWARNING: The files will be moved to the Recycle Bin and automatically purged after 7 days."
+  },
+  {
+    "key": "password_help_label_reset_password",
+    "value": "Reset Password"
+  },
+  {
+    "value": "Credit Card information is not valid",
+    "key": "card_error"
+  },
+  {
+    "value": "Payment method is not updated",
+    "key": "billing_timeout_error"
+  }
+]

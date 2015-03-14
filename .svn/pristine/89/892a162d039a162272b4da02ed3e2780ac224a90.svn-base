@@ -1,0 +1,82 @@
+<div ng-controller="SharedRecordingCtrl" ng-init="init()" class="NewCameraView">
+
+    <header class="header">
+        <span class="header-logout arlo-cp" ng-click="goHome()" style="right: auto;">{{'login_activity_login' | i18n}}</span>
+    </header>
+    <div ng-show="loading" class="billing-loading" ng-include="'partials/loadingView.html'"></div>
+    <div ng-hide="error || loading" style="position: absolute; top: 60px; bottom:0; left:10%; right:10%; overflow: hidden;">
+                <div class="" style="width: 70%;padding: 4px;">
+                    <div style="box-shadow: 0px 0px 4px #888;background-color: #fff;">
+                    <div ng-show="isVideo(recording)">
+                        <div class="recording-center-inner">
+                            <div class="recording-date" ng-bind="recording.utcCreatedDate | toBSTime:recordingPrev.timeZone | date : 'shortDate'"></div>
+                            <div class="recording-time" ng-bind="recording.utcCreatedDate | toBSTime:recordingPrev.timeZone | date : 'shortTime'"></div>
+                        </div>
+                        <div style="position: relative; border-top: solid 1px #e5e5e5; border-bottom: solid 1px #e5e5e5;">
+                            <video style="width: 100%;" preload="none" recording-video ng-hide="!loaded || isLoadingVideo" id="recordedVideo" class=""
+                                   ng-src="{{recordingVideoUrl}}">
+                            </video>
+                            <div ng-show="isLoadingVideo" style="height:0; padding-bottom: 56.25%;">
+                            <div class="recording-loading">
+                                {{'status_label_loading' | i18n}}
+                            </div>
+                            </div>
+                            <div ng-hide="loaded || oldBrowser" class="" ng-click="play()">
+                                <img ng-src="{{recording.presignedThumbnailUrl}}" style="width: 100%;" camera-thumbnail/>
+                            </div>
+
+                            <div ng-show="!playing && !oldBrowser" class="recording-play-wrap" ng-click="play()">
+                            </div>
+                            <div ng-show="oldBrowser" class="camera-offline-table arlo-red arlo-fs17" style="white-space: normal;padding: 5%;">
+                                <div>
+                                    {{'error_unsupported_mp4_playback' | i18n}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="padding: 0 15px;">
+                        <div class="" style="height: 44px; display: table; width: 100%;">
+                            <div class="recording-table-cell">{{time | secToString}}</div>
+                            <div class="recording-slider-table-cell">
+                                <div ng-click="sliderClick($event)" class="recording-slider">
+                                    <div class="recording-slider-played" ng-style="{width: timePercent + '%'}"></div>
+                                </div>
+                                <div slider-drag class="recording-slider-point"
+                                     ng-style="{left: timePercent + '%'}"></div>
+                            </div>
+                            <div class="recording-table-cell">{{recording.mediaDuration || getRecordingDuration()}}</div>
+                            <div class="recording-table-cell" ng-click="fullScreen()" ng-show="playing && screenfull.enabled">
+                                <div class="recording-fullscreen arlo-cp"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div ng-hide="isVideo(recording)" class="">
+                        <div class="recording-center-inner">
+                            <div class="recording-date" ng-bind="recording.utcCreatedDate | toBSTime:recordingPrev.timeZone | date : 'shortDate'"></div>
+                            <div class="recording-time" ng-bind="recording.utcCreatedDate | toBSTime:recordingPrev.timeZone | date : 'shortTime'"></div>
+                        </div>
+                        <div class="recording-play-box">
+                            <img ng-src="{{recordingImageUrl}}" class="recording-preview-image"  camera-thumbnail/>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        <div style="position: absolute; top:0; right:0; width: 30%; bottom: 0;">
+            <div style="position: absolute; top:4px; left: 4px; right: 4px; bottom: 4px; border: solid 1px #e5e5e5;background-color: #fff;box-shadow: 0px 0px 4px #888;">
+            <div class="arlo-fs17" style="text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Shared Media</div>
+            <div style="position: absolute; top:30px; right:0; left: 0; bottom: 0; overflow-y: auto;">
+                <div ng-repeat="rec in recordings" style="border: solid 1px #e5e5e5; box-shadow: 0px 0px 2px #888; margin: 4px;" ng-click="selectRecording(rec)"
+                        ng-class="{'rec-opacity': rec == recording, 'arlo-cp': rec != recording}">
+                    <div style="height: 20px;border-bottom: solid 1px #e5e5e5;"></div>
+                    <div style="position: relative;">
+                        <img style="display: block; width: 100%;" ng-src="{{rec.presignedThumbnailUrl}}"  camera-thumbnail />
+                        <div ng-show="isVideo(rec)" class="record-video"></div>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,126 @@
+<div class="container">
+
+    <div ng-include="'components/navbar/navbar.html'"></div>
+
+    <div class="jumbotron text-center">
+        <p class="lead">
+            Always a pleasure serving Arlo Marketing. <h3 class="monaco">Add - sku</h3> 
+        </p>
+
+    </div>
+
+    <div class="row">
+        <div class="container">
+
+            <section class="modal-body">
+
+                <ul class="list-inline row">
+                    <li class="col-md-2 text-center ">
+                        <h4 class="text-center monaco"> Plan ID </h4>
+                        <ul class="no-bullet-li">
+                            <li class="no-bullet-li row">
+                                <input ng-repeat="planid in planids" class="gap-li form-control monaco-p full-input" value=" {{planid.planId}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="col-md-2 text-center">
+                        <h4 class="text-center monaco"> On </h4>
+                        <ul class="no-bullet-li">
+                            <li class="no-bullet-li ">
+                                <input type="checkbox" ng-repeat="planid in planids" class="gap-li form-control-check monaco-p align-center" ng-checked=" {{planid.on}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="col-md-5 text-center">
+                        <h4 class="text-center monaco">Plan Description</h4>
+                        <ul class="no-bullet-li">
+                            <li>
+                                <input ng-repeat="planid in planids" class="gap-li form-control monaco-p full-input" value=" {{planid.planDescription}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-md-3 text-center">
+                        <h4 class="text-center monaco">Group No</h4>
+                        <ul class="no-bullet-li">
+                            <li>
+                                <input ng-repeat="planid in planids" class="gap-li form-control monaco-p full-input" value=" {{planid.groupId}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <hr>
+
+
+
+
+
+                <!-- <h4 class="monaco">Country Plans</h4> -->
+                <ul class="list-inline row">
+                    <li class="col-md-2 text-center ">
+                        <h4 class="text-center monaco"> Plan ID </h4>
+                        <ul class="no-bullet-li">
+                            <li class="no-bullet-li row">
+                                <input ng-repeat="planid in country_planids" class="gap-li form-control monaco-p full-input" value=" {{planid.planId}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="col-md-2 text-center">
+                        <h4 class="text-center monaco"> On </h4>
+                        <ul class="no-bullet-li">
+                            <li class="no-bullet-li ">
+                                <input type="checkbox" ng-repeat="planid in country_planids" class="gap-li form-control-check monaco-p align-center" ng-checked=" {{planid.on}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="col-md-5 text-center">
+                        <h4 class="text-center monaco">Plan Description</h4>
+                        <ul class="no-bullet-li">
+                            <li>
+                                <input ng-repeat="planid in country_planids" class="gap-li form-control monaco-p full-input" value=" {{planid.planDescription}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-md-3 text-center">
+                        <h4 class="text-center monaco">Group No</h4>
+                        <ul class="no-bullet-li">
+                            <li>
+                                <input ng-repeat="planid in country_planids" class="gap-li form-control monaco-p full-input" value=" {{planid.groupId}}">
+                                </input>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok()">Add More Plans</button>
+            <button class="btn btn-success" ng-click="update()">Update</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+
+
+
+
+
+    <div class="footer">
+        <p>With ♥ for <a href="https://twitter.com/ArloSmartHome">@ArloSmartHome</a>
+        </p>
+    </div>
+
+</div>

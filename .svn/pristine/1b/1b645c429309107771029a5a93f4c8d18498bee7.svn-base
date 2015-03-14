@@ -1,0 +1,3 @@
+<div class="status-box" ng-controller="StatusCtrl" ng-init="init()" ng-style="{display:(isActive()?'':'none')}">
+        <progressbar class="progress-striped active" max="100" value="100">Communicating with base station ...</progressbar>
+</div>

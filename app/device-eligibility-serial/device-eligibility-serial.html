@@ -1,0 +1,270 @@
+<div class="container">
+
+    <div ng-include="'components/navbar/navbar.html'"></div>
+
+    <div class="jumbotron text-center">
+        <p class="lead">
+            Always a pleasure serving Arlo Marketing.
+            <h3 class="monaco" ng-model="pn_number" ng-change="ip=pn_number">Select Device Eligibility for  {{country.selected.name}} - {{country.selected.code}}</h3>
+
+
+            <div class="row">
+                <!-- jumbotron starts -->
+
+                <div class="row">
+                    <br>
+                    <br>
+                    <div class="col-md-4 col-xs-4">
+                        <div>
+                            <ui-select ng-model='country.selected' theme='bootstrap' reset-search-input='false'>
+
+                                <ui-select-match placeholder='Pick a Country...' ng-model="name" class="monaco-font">
+                                    {{$select.selected.name}}
+                                </ui-select-match>
+
+                                <ui-select-choices repeat='e in countries | filter: $select.search'>
+                                    {{e.name}} &lt;{{e.code}}&gt;
+                                </ui-select-choices>
+                            </ui-select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xs-6">
+                        <div class="row">
+                            <div class="col-md-4 color-5">
+                                <p class="p-inline">selected Plan :  </p>
+                            </div>
+                            <div class="col-md-4 color-5" ng-repeat=" opt in selectedPlans">
+                                <p class="p-inline"> {{ opt.planId }} </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-2 col-xs-2">
+                        <p class="p-inline monaco-font">From serial</p>
+                    </div>
+
+                    <div class="col-md-2 col-xs-2">
+                        <p class="p-inline monaco-font">To serial</p>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-2 col-xs-2">
+                        <input placeholder="serial no.." type="text" class="form-control col-md-12 col-sm-12 monaco-font" ng-model="serialFrom">
+                    </div>
+
+                    <div class="col-md-2 col-xs-2">
+                        <input placeholder="serial no.." type="text" class="form-control col-md-12 col-sm-12 monaco-font" ng-model="serialTo">
+                    </div>
+
+
+
+
+
+
+                    <div class="col-md-3 col-md-offset-5">
+                        <button class="btn btn-success test_li_button" ng-click="update()">Update</button>
+                        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+            <!-- end Jumbotron -->
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12">
+            <input placeholder="Search.... " type="text" class="form-control col-md-12 col-sm-12" ng-model="searchText">
+        </div>
+        <hr>
+
+
+
+        <div ui-view></div>
+
+
+
+
+        <div class="col-sm-12 col-md-12" ng-repeat="awesomeThing in countryData | orderBy:'rank' | filter:searchText">
+            <br>
+            <!-- {{awesomeThing}} -->
+
+            <form class="thumbnail">
+                <div class="caption caption-push">
+                    <ul class="list-inline">
+                        <li class="monaco-font">
+                            {{awesomeThing.planName}}
+                        </li>
+
+                        <li>
+                            <h5>
+                                <!-- <a ng-href="#/{{awesomeThing.skuId}}"> <span class="glyphicon glyphicon-pencil"> </span> </a>   -->
+                            </h5>
+                        </li>
+
+
+
+                        <li class="pull-right">
+                            <input type="checkbox" class="gap-li form-control-check-dev-eli monaco-p align-center pull-right" ng-checked=" {{awesomeThing.on}}" ng-click='planClicked(awesomeThing)'>
+                            </input>
+
+
+                        </li>
+
+                    </ul>
+
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">PlanId </p>
+                                </div>
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline monaco-font">{{awesomeThing.planId}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-1">
+                                    <p class="p-inline">skuId </p>
+                                </div>
+                                <div class="col-md-6 color-1">
+                                    <p class="p-inline monaco-font">{{awesomeThing.id}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">planType </p>
+                                </div>
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">{{awesomeThing.planType}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-2">
+                                    <p class="p-inline">group Number </p>
+                                </div>
+                                <div class="col-md-6 color-2">
+                                    <p class="p-inline">{{awesomeThing.groupId}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">groupName </p>
+                                </div>
+                                <div class="col-md-6 color-white">
+                                    <p class="p-inline">{{awesomeThing.groupName}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-6 color-3">
+                                    <p class="p-inline">description </p>
+                                </div>
+                                <div class="col-md-6 color-3">
+                                    <p class="p-inline">{{awesomeThing.description}} </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+        </div>
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+    <div class="modal-footer">
+        <a class="btn btn-primary" ng-click="ok()">Add More Plans</a>
+        <a class="btn btn-success" ng-click="update()">Update</a>
+        <a ng-href="#/" class="btn btn-warning" ng-click="cancel()">Cancel</a>
+    </div>
+
+
+
+    <div class="footer">
+        <p>With ♥ for <a href="https://twitter.com/ArloSmartHome">@ArloSmartHome</a>
+        </p>
+    </div>
